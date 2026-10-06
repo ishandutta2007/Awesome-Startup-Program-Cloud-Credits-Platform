@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-  <a href="https://github.com/ishandutta2007/Awesome-Startup-Program-Cloud-Credits-Platform/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Startup-Program-Cloud-Credits-Platform?style=flat-square&color=gold" alt="GitHub Stars"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Startup-Program-Cloud-Credits-Platform/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Startup-Program-Cloud-Credits-Platform?style=flat-square&color=gold" alt="GitHub_Stars"/></a>
   <a href="https://github.com/ishandutta2007/Awesome-Startup-Program-Cloud-Credits-Platform/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Startup-Program-Cloud-Credits-Platform?style=flat-square&color=blue" alt="GitHub Forks"/></a>
   <a href="https://github.com/ishandutta2007/Awesome-Startup-Program-Cloud-Credits-Platform/blob/main/LICENSE"><img src="https://img.shields.io/github/license/ishandutta2007/Awesome-Startup-Program-Cloud-Credits-Platform?style=flat-square&color=green" alt="License"/></a>
   <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
@@ -57,9 +57,9 @@ Below is a detailed comparison of major startup programs, sorted in **descending
 
 ## 🛠️ Open-Source Accelerator & Credit Infrastructure
 
-Below is a curated collection of open-source frameworks, program management platforms, and developer tooling for building startup programs, grants, and community funds. Sorted in **descending order by GitHub star count**.
+Below is a curated collection of open-source frameworks, program management platforms, and developer tooling for building startup programs, grants, and community funds. Sorted in **descending order by GitHub Stars_Count**.
 
-| 📦 Repository & Project Name | ⭐ GitHub Stars Badge | 📝 Description & Primary Focus |
+| 📦 Repository & Project Name | ⭐ GitHub_Stars_Badge | 📝 Description & Primary Focus |
 | :--- | :--- | :--- |
 | **[n8n-io / n8n](https://github.com/n8n-io/n8n)** | [![Stars](https://img.shields.io/github/stars/n8n-io/n8n?style=social&color=white)](https://github.com/n8n-io/n8n/stargazers) | **Fair-code workflow automation platform** for connecting startup onboarding APIs, credit claims, and Slack/Discord alerts. |
 | **[calcom / cal.com](https://github.com/calcom/cal.com)** | [![Stars](https://img.shields.io/github/stars/calcom/cal.com?style=social&color=white)](https://github.com/calcom/cal.com/stargazers) | **Open-source scheduling infrastructure** for startup office hours, VC mentorship sessions, and founder check-ins. |
