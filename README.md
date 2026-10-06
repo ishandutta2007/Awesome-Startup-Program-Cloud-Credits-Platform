@@ -1,235 +1,128 @@
-# Awesome-Startup-Program-Cloud-Credits-Platform
-
-## Top Startup Program & Cloud Credits Platform Ecosystem
-
-
-
-**Curated List of SaaS Products & Open-Source GitHub Projects**  
-
-*Focused on Startup Credits, Cloud Onboarding & Open-Source Accelerator Infrastructure*  
-
-**Last updated: October 2026**
-
-
-
-This repository tracks notable **commercial startup programs and cloud credit platforms** and **open-source projects** that help early-stage companies access cloud infrastructure, developer tools, and business services at reduced or no cost.
-
-
-
-**Examples** include AWS Activate, Google for Startups Cloud Program, Microsoft for Startups Founders Hub, IBM Global Entrepreneur, Oracle for Startups, DigitalOcean Hatch, OVHcloud Startup Program, HubSpot for Startups, Segment Startup Program, and Stripe Atlas (the category leaders).
-
-
-
-**Open-source emphasis**: Startup program infrastructure is an emerging open-source domain. **Startup Program Manager (SPM)** provides a platform-agnostic framework for running programs with credits, eligibility, and partner integrations . **Maya** delivers startup program lifecycle automation with vouchers and claims . **SCORE** supports community-powered mentorship and grant disbursement. **OpenGrants** brings grant discovery and management. **osFunding** enables transparent community funding. This section is heavily expanded.
-
-
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
-
-## Table of Contents
-
-- [SaaS/Hosted Platforms](#saas-hosted-platforms)
-
-- [Open-Source GitHub Projects](#open-source-github-projects)
-
-- [How to Contribute](#how-to-contribute)
-
-- [Disclaimer](#disclaimer)
-
-
-
-## SaaS/Hosted Platforms
-
-
-
-- **[AWS Activate](https://aws.amazon.com/activate/)**  
-
-  **The most widely used startup program** — up to $100,000 in AWS credits, technical support, and training . **Two tiers**: Founders (self-serve, up to $1,000 credits) and Portfolio (via accelerators/VCs, up to $100,000) . **Best for startups building on AWS** .
-
-
-
-- **[Google for Startups Cloud Program](https://cloud.google.com/startup)**  
-
-  **Google's startup program** — up to $200,000 in Google Cloud credits over two years, plus technical training and Google-wide offers . **Best for startups building on GCP** .
-
-
-
-- **[Microsoft for Startups Founders Hub](https://www.microsoft.com/en-us/startups)**  
-
-  **Microsoft's startup program** — up to $150,000 in Azure credits, OpenAI credits, GitHub Enterprise, and Microsoft 365 . **No funding required** — open to all stages . **Best for startups in the Microsoft ecosystem** .
-
-
-
-- **[IBM Global Entrepreneur](https://www.ibm.com/startups)**  
-
-  **IBM's startup program** — cloud credits, technical mentorship, and go-to-market support . **Best for startups working with IBM technology** .
-
-
-
-- **[Oracle for Startups](https://www.oracle.com/startup/)**  
-
-  **Oracle's startup program** — OCI credits, technical support, and Oracle Cloud Free Tier . **Best for startups building on Oracle Cloud** .
-
-
-
-- **[DigitalOcean Hatch](https://www.digitalocean.com/hatch)**  
-
-  **DigitalOcean's startup program** — up to $100,000 in credits over 12 months, plus technical mentorship . **Best for early-stage startups** .
-
-
-
-- **[OVHcloud Startup Program](https://www.ovhcloud.com/en/startup-program/)**  
-
-  **European cloud credits for startups** — up to €100,000 in OVHcloud credits . **Best for European data sovereignty** .
-
-
-
-- **[HubSpot for Startups](https://www.hubspot.com/startups)**  
-
-  **HubSpot's startup program** — up to 90% off HubSpot products, plus onboarding and support . **Best for startups needing CRM and marketing** .
-
-
-
-- **[Segment Startup Program](https://segment.com/industry/startups/)**  
-
-  **Segment's startup program** — free access to Segment's customer data platform . **Best for startups needing analytics infrastructure** .
-
-
-
-- **[Stripe Atlas](https://stripe.com/atlas)**  
-
-  **Stripe's company formation service** — incorporate a US company, get a bank account, and access Stripe's ecosystem . **Best for international founders incorporating in the US** .
-
-
-
-## Open-Source GitHub Projects
-
-
-
-- **[Startup Program Manager (SPM)](https://github.com/last9/spm)**  
-
-  **Platform-agnostic startup program management framework**, open-source . **Defines programs, credits, eligibility rules, and partner integrations in YAML** . **Auto-computes awards by startup age, funding stage, and service usage** . **Tracks applications, approvals, redemptions, and expiry** — generates reports and invoices . **Provider adapters** for AWS, GCP, Azure, DigitalOcean, and internal tools . **REST API, CLI, and web dashboard** . **The most complete open-source framework for running startup credit programs** .
-
-
-
-- **[Maya](https://github.com/mayadata-io/maya)**  
-
-  **Startup program lifecycle automation platform**, open-source . **Campaign and program management** — applications, approvals, vouchers, claims, and redemption . **Rule-based eligibility** with automatic credit allocation . **Integrates with cloud provider billing APIs** for credit issuance . **Reporting and analytics** for program performance . **Best for organizations running startup programs at scale** .
-
-
-
-- **[SCORE](https://github.com/score-org/score)**  
-
-  **Community-powered startup mentorship platform**, open-source . **Connects founders with volunteer mentors** — free business mentoring . **Chapter and event management** for local startup communities . **Grant and funding program management** . **The largest volunteer network of startup mentors** — 10,000+ volunteers . **Best for community-driven startup support** .
-
-
-
-- **[OpenGrants](https://github.com/opengrants/opengrants)**  
-
-  **Open-source grant discovery and management platform**, open-source . **Aggregates grant opportunities** from government, foundation, and corporate sources . **Application tracking and deadline management** . **Best for startups seeking non-dilutive funding** .
-
-
-
-- **[osFunding](https://github.com/osFunding/osFunding)**  
-
-  **Open-source funding platform for open-source projects**, open-source . **Transparent funding allocation** — community votes on funding distribution . **Smart contract-based disbursement** . **Best for open-source projects seeking sustainable funding** .
-
-
-
-- **[OpenStartup](https://github.com/openstartup/openstartup)**  
-
-  **Open-source startup program management**, open-source . **Application intake, review workflows, and credit allocation** . **Best for small-scale startup programs** .
-
-
-
-- **[StartupOS](https://github.com/startupos/startupos)**  
-
-  **Open-source operating system for startup programs**, open-source . **Modular architecture** — CRM, applications, credits, and reporting . **Best for building custom startup program platforms** .
-
-
-
-### Cloud Provider Programs (Open-Source Friendly)
-
-
-
-- **AWS Free Tier** — 12-month free tier + always-free services for learning and prototyping .
-
-- **Google Cloud Free Tier** — $300 credits for 90 days + always-free services .
-
-- **Azure Free Account** — $200 credits for 30 days + 12-month free services .
-
-- **Oracle Cloud Free Tier** — Always-free ARM VMs, storage, and databases .
-
-- **DigitalOcean Free Tier** — $200 credits for 60 days .
-
-- **GitHub Student Pack** — Free developer tools for students and startups .
-
-
-
-### Additional Strong Open-Source Options
-
-
-
-- **Accelerator OS** — Open-source accelerator program management .
-
-- **Startup Toolkit** — Open-source startup resources and templates .
-
-- **Founder Toolkit** — Open-source founder resources .
-
-- **Open Accelerator** — Open-source accelerator platform .
-
-- **Startup Grants** — Open-source grant tracking .
-
-- **Community Startup** — Community-driven startup support .
-
-
-
-**Frameworks for building custom startup program platforms**: Combine **Startup Program Manager (SPM)** for platform-agnostic credit program management with YAML definitions and provider adapters . Use **Maya** for startup program lifecycle automation with vouchers and claims . Integrate **SCORE** for mentorship and community support . Choose **OpenGrants** for grant discovery . Note that true commercial startup programs with cloud credits, technical support, and go-to-market access (AWS Activate, Google for Startups, Microsoft Founders Hub) remain primarily commercial territory; open-source stacks provide strong program management, credit allocation, and community support foundations that require partnerships with cloud providers for credits.
-
-
-
-## How to Contribute
-
-
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Disclaimer
-
-
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- Startup programs and cloud credits are offered by commercial providers with specific eligibility criteria, terms, and expiration dates. **Review program requirements carefully** before applying.
-
-- **Credits are not free money** — they expire, have usage restrictions, and may require payment method on file. **Monitor credit consumption** to avoid unexpected charges.
-
-- **Open-source startup program platforms vary in maturity** — SPM and Maya are production-oriented; others are early-stage or community-driven . Evaluate before relying on them for critical program operations.
-
-- **Program terms change frequently** — cloud providers regularly update credit amounts, eligibility, and program structures. Verify current terms on official program pages.
-
-- The open-source ecosystem provides strong program management, credit allocation, and community support foundations, but **cloud credits, technical support, and go-to-market access** require partnerships with commercial providers.
-
-
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Startup-Program-Cloud-Credits-Platform/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Startup-Program-Cloud-Credits-Platform?style=flat-square&color=gold" alt="GitHub Stars"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Startup-Program-Cloud-Credits-Platform/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Startup-Program-Cloud-Credits-Platform?style=flat-square&color=blue" alt="GitHub Forks"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Startup-Program-Cloud-Credits-Platform/blob/main/LICENSE"><img src="https://img.shields.io/github/license/ishandutta2007/Awesome-Startup-Program-Cloud-Credits-Platform?style=flat-square&color=green" alt="License"/></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
+
+<p align="center">
+  <img src="assets/banner.svg" alt="Awesome Startup Program &amp; Cloud Credits Platform Banner" width="100%"/>
+</p>
+
+# 🚀 Awesome Startup Program & Cloud Credits Platform ☁️
+
+> **The ultimate curated directory of commercial startup programs, cloud hosting credits, SaaS perks, and open-source accelerator infrastructure.**
+
+Welcome to the definitive ecosystem index for early-stage startup founders, CTOs, accelerator managers, and open-source creators seeking free cloud credits, software perks, grant tracking, and program management tooling.
 
 ---
 
+## 📚 Table of Contents
+- [📊 Sector Market Dynamics](#-sector-market-dynamics)
+- [🏢 SaaS & Cloud Startup Credit Platforms](#-saas--cloud-startup-credit-platforms)
+- [🛠️ Open-Source Accelerator & Credit Infrastructure](#️-open-source-accelerator--credit-infrastructure)
+- [🎁 Cloud Provider Always-Free Tiers](#-cloud-provider-always-free-tiers)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [💖 Support & Sponsorship](#-support--sponsorship)
+- [📈 Star History](#-star-history)
+- [📜 Disclaimer](#-disclaimer)
 
+---
 
-**Made for startup founders, accelerator operators, and organizations seeking startup program sovereignty.**  
+## 📊 Sector Market Dynamics
 
-Let's make startup programs and cloud credits more open, transparent, and accessible.
+> **📊 Market Size & Industry Structure**: The global cloud computing market is valued at **~$675 Billion+** (with cloud startup credits & perk programs representing an estimated **~$5 Billion+ annual perk economy**). The cloud infrastructure segment is **highly concentrated** among hyper-scaler cloud giants (AWS, Microsoft Azure, Google Cloud) controlling over 65% of total market share, while specialized developer tools, CRM, payments, and open-source management platforms operate in a **moderately fragmented** secondary tier.
+
+---
+
+## 🏢 SaaS & Cloud Startup Credit Platforms
+
+Below is a detailed comparison of major startup programs, sorted in **descending order by company valuation / market capitalization**.
+
+| 🏢 Product / Program | 💰 Valuation / Annual Revenue | 🏷️ Starting Paid Tier Price | 🎁 Free Tier Limit / Free Trial | 🚀 Startup Program Credits & Offer Details |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Microsoft Founders Hub](https://www.microsoft.com/en-us/startups)** | **$3.1 Trillion Market Cap** (~$35B+ Azure Annual Rev) | $13.00/user/month (M365 Business Basic & Azure App Services) | 12 Months Free ($200 credit for 30 days + 55+ always free services) | **Up to $150,000 in Azure credits**, OpenAI credits, GitHub Enterprise, M365, and expert mentorship. |
+| **[AWS Activate](https://aws.amazon.com/activate/)** | **$2.1 Trillion Market Cap** (~$105B AWS Annual Rev) | $29.00/month (Developer Support Tier) | 12 Months Free Tier (1M Lambda req/mo, 5GB S3, 750 hrs EC2/mo) | **Up to $100,000 in AWS credits**, technical support, architecture guidance, and founder resources. |
+| **[Google for Startups](https://cloud.google.com/startup)** | **$2.0 Trillion Market Cap** (~$33B GCP Annual Rev) | $10.00/month (Google Workspace Starter Tier) | $300 credit valid for 90 days + 20+ Always Free Cloud Products | **Up to $200,000 in Google Cloud credits** over 2 years, Google Workspace & Firebase perks. |
+| **[Oracle for Startups](https://www.oracle.com/startup/)** | **$480 Billion Market Cap** (~$53B Annual Rev) | $20.00/month (Oracle Cloud Infrastructure Starter Instance) | Always Free Tier (2 Ampere ARM VMs with 24GB RAM, 200GB Storage) | **70% discount on OCI** for 2 years, up to $10,000 in cloud credits + technical support. |
+| **[IBM Global Entrepreneur](https://www.ibm.com/startups)** | **$210 Billion Market Cap** (~$62B Annual Rev) | $25.00/month (IBM Cloud Kubernetes & Bare Metal Tier) | IBM Cloud Free Tier (40+ Always Free services + $200 trial credit) | **Up to $120,000/year in IBM Cloud credits**, Watson AI access & 1-on-1 technical mentoring. |
+| **[Stripe Atlas](https://stripe.com/atlas)** | **$65 Billion Valuation** (~$14B Annual Rev) | $500.00 one-time setup fee + 2.9% + 30¢ per transaction | Stripe Payments Free Sandbox / Test Mode (No monthly fee) | **US Company Incorporation ($500 package)**, Delaware filing, US bank account & $100k+ partner perks. |
+| **[HubSpot for Startups](https://www.hubspot.com/startups)** | **$30 Billion Market Cap** (~$2.2B Annual Rev) | $15.00/user/month (HubSpot Starter Customer Platform) | Free Forever Plan (1,000 contacts, free CRM, live chat & forms) | **Up to 90% off HubSpot CRM** & Marketing Hub in Year 1, 50% off Year 2, 25% off ongoing. |
+| **[Segment Startup Program](https://segment.com/industry/startups/)** | **$8 Billion Valuation** (Twilio Segment ~$4.1B Rev) | $120.00/month (Segment Team Plan up to 10k MTUs) | Free Forever Plan (1,000 MTUs/month, 2 source integrations, 300+ destinations) | **$25,000 in Segment credits** for 12 months + access to startup deal perks & analytics coaching. |
+| **[DigitalOcean Hatch](https://www.digitalocean.com/hatch)** | **$3.5 Billion Market Cap** (~$720M Annual Rev) | $4.00/month (Basic Droplet 512MB RAM / 1 vCPU) | $200 free credit valid for 60 days for all new account signups | **Up to $100,000 in DigitalOcean cloud credits** for 12 months + technical support & community. |
+| **[OVHcloud Startup Program](https://www.ovhcloud.com/en/startup-program/)** | **$1.8 Billion Market Cap** (~$960M Annual Rev) | €3.50/month (€0.005/hour VPS Starter Instance) | €200 free trial credit valid for 30 days for public cloud testing | **Up to €100,000 in cloud credits** over 12 months, sovereign EU cloud hosting & dedicated support. |
+
+---
+
+## 🛠️ Open-Source Accelerator & Credit Infrastructure
+
+Below is a curated collection of open-source frameworks, program management platforms, and developer tooling for building startup programs, grants, and community funds. Sorted in **descending order by GitHub star count**.
+
+| 📦 Repository & Project Name | ⭐ GitHub Stars Badge | 📝 Description & Primary Focus |
+| :--- | :--- | :--- |
+| **[n8n-io / n8n](https://github.com/n8n-io/n8n)** | [![Stars](https://img.shields.io/github/stars/n8n-io/n8n?style=social&color=white)](https://github.com/n8n-io/n8n/stargazers) | **Fair-code workflow automation platform** for connecting startup onboarding APIs, credit claims, and Slack/Discord alerts. |
+| **[calcom / cal.com](https://github.com/calcom/cal.com)** | [![Stars](https://img.shields.io/github/stars/calcom/cal.com?style=social&color=white)](https://github.com/calcom/cal.com/stargazers) | **Open-source scheduling infrastructure** for startup office hours, VC mentorship sessions, and founder check-ins. |
+| **[posthog / posthog](https://github.com/posthog/posthog)** | [![Stars](https://img.shields.io/github/stars/posthog/posthog?style=social&color=white)](https://github.com/posthog/posthog/stargazers) | **Open-source product analytics & feature flags** suite tailored for startup growth and user behavioral tracking. |
+| **[dubinc / dub](https://github.com/dubinc/dub)** | [![Stars](https://img.shields.io/github/stars/dubinc/dub?style=social&color=white)](https://github.com/dubinc/dub/stargazers) | **Open-source link management platform** for startup referral campaigns, credit redemption links, and custom domain shorteners. |
+| **[formbricks / formbricks](https://github.com/formbricks/formbricks)** | [![Stars](https://img.shields.io/github/stars/formbricks/formbricks?style=social&color=white)](https://github.com/formbricks/formbricks/stargazers) | **Open-source Experience Management (XM)** & survey engine for startup feedback, program application forms, and founder onboarding. |
+| **[score-spec / score](https://github.com/score-spec/score)** | [![Stars](https://img.shields.io/github/stars/score-spec/score?style=social&color=white)](https://github.com/score-spec/score/stargazers) | **Developer-centric workload specification** for workload portability across multi-cloud startup credit environments. |
+| **[last9 / spm](https://github.com/last9/spm)** | [![Stars](https://img.shields.io/github/stars/last9/spm?style=social&color=white)](https://github.com/last9/spm/stargazers) | **Startup Program Manager (SPM)** — platform-agnostic framework for defining credits, eligibility, and provider adapters in YAML. |
+| **[opengrants / opengrants](https://github.com/opengrants/opengrants)** | [![Stars](https://img.shields.io/github/stars/opengrants/opengrants?style=social&color=white)](https://github.com/opengrants/opengrants/stargazers) | **Open-source grant discovery platform** aggregating non-dilutive government and foundation funding opportunities for startups. |
+| **[mayadata-io / maya](https://github.com/mayadata-io/maya)** | [![Stars](https://img.shields.io/github/stars/mayadata-io/maya?style=social&color=white)](https://github.com/mayadata-io/maya/stargazers) | **Startup program lifecycle automation** platform managing vouchers, claims, approval flows, and cloud billing integrations. |
+| **[osFunding / osFunding](https://github.com/osFunding/osFunding)** | [![Stars](https://img.shields.io/github/stars/osFunding/osFunding?style=social&color=white)](https://github.com/osFunding/osFunding/stargazers) | **Transparent community funding platform** utilizing smart contracts for open-source project disbursement and grants. |
+| **[openstartup / openstartup](https://github.com/openstartup/openstartup)** | [![Stars](https://img.shields.io/github/stars/openstartup/openstartup?style=social&color=white)](https://github.com/openstartup/openstartup/stargazers) | **Lightweight open-source program management** system for application intake, review workflows, and credit tracking. |
+| **[startupos / startupos](https://github.com/startupos/startupos)** | [![Stars](https://img.shields.io/github/stars/startupos/startupos?style=social&color=white)](https://github.com/startupos/startupos/stargazers) | **Modular operating system for accelerators** providing CRM, application management, credit tracking, and reporting. |
+
+---
+
+## 🎁 Cloud Provider Always-Free Tiers
+
+- ☁️ **AWS Free Tier**: 12-month free tier + 100+ always-free services (1M Lambda requests, 5GB S3, 750 hrs EC2).
+- 🌐 **Google Cloud Free Tier**: $300 in credits for 90 days + 20+ always-free products (BigQuery 1TB/mo, 28 instance-hrs Compute Engine).
+- 🔷 **Azure Free Account**: $200 credit for 30 days + 55+ always-free services (App Service 10 apps, 750 hrs B1s VM).
+- 🔴 **Oracle Cloud Free Tier**: Always-free ARM Compute (up to 4 OCPUs, 24GB RAM), 2 AMD VMs, and 200GB Block Storage.
+- 🦈 **DigitalOcean Free Trial**: $200 in free credits for 60 days for testing Droplets and Kubernetes.
+
+---
+
+## 🤝 How to Contribute
+
+Contributions are warmly welcomed! Please follow these simple steps:
+
+1. 🍴 Fork the repository.
+2. 📝 Add or update entries in `README.md` following the tabular layout.
+3. 🔎 Ensure pricing details, free tier limits, and program benefits are specific and verifiable.
+4. 🔀 Submit a Pull Request with a clear description of changes.
+
+---
+
+## 💖 Support & Sponsorship
+
+If you find this repository helpful for your startup journey or accelerator operations, please consider supporting the project:
+
+- ⭐ **Star this repository** to help others discover it!
+- 🔀 **Fork & Share** it with founders, developers, and accelerator directors.
+- ☕ **Buy Me a Coffee / Sponsor**: Support ongoing maintenance via the [GitHub Sponsor Dashboard](https://github.com/sponsors/ishandutta2007).
+
+Thank you for being part of our open-source community! ❤️
+
+---
+
+## 📈 Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Startup-Program-Cloud-Credits-Platform&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Startup-Program-Cloud-Credits-Platform&type=date&legend=top-left)
+
+---
+
+## 📜 Disclaimer
+
+- This list is **community-curated** for educational purposes and does not constitute financial or legal advice.
+- Cloud credits and startup perks are provided directly by commercial companies and are subject to change, eligibility verification, and expiration.
+- Check official program guidelines and terms before committing critical application workloads.
+
+---
+
+<p align="center">
+  Curated with ❤️ by <a href="https://github.com/ishandutta2007"><b>Ishan Dutta</b></a> and the Open-Source Community.
+</p>
