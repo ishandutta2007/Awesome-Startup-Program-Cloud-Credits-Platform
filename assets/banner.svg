@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="50%" stop-color="#1e1b4b" />
+      <stop offset="100%" stop-color="#0f172a" />
+    </linearGradient>
+
+    <!-- Accent Gradient -->
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="50%" stop-color="#818cf8" />
+      <stop offset="100%" stop-color="#c084fc" />
+    </linearGradient>
+
+    <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="50%" stop-color="#a78bfa" />
+      <stop offset="100%" stop-color="#f472b6" />
+    </linearGradient>
+
+    <!-- Glowing Grid Pattern -->
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="rgba(255, 255, 255, 0.05)" stroke-width="1" />
+    </pattern>
+
+    <style>
+      .bg-grid { animation: pulseGrid 8s ease-in-out infinite alternate; }
+      .orb-1 { animation: floatOrb1 12s ease-in-out infinite alternate; }
+      .orb-2 { animation: floatOrb2 10s ease-in-out infinite alternate; }
+      .pulse-node { animation: nodePulse 3s ease-in-out infinite alternate; }
+      .dash-line { stroke-dasharray: 8 8; animation: dashMove 20s linear infinite; }
+
+      @keyframes pulseGrid {
+        0% { opacity: 0.3; }
+        100% { opacity: 0.7; }
+      }
+      @keyframes floatOrb1 {
+        0% { transform: translate(0px, 0px) scale(1); }
+        100% { transform: translate(60px, 40px) scale(1.2); }
+      }
+      @keyframes floatOrb2 {
+        0% { transform: translate(0px, 0px) scale(1); }
+        100% { transform: translate(-50px, -30px) scale(1.1); }
+      }
+      @keyframes nodePulse {
+        0% { r: 4px; opacity: 0.5; }
+        100% { r: 8px; opacity: 1; }
+      }
+      @keyframes dashMove {
+        0% { stroke-dashoffset: 0; }
+        100% { stroke-dashoffset: -100; }
+      }
+    </style>
+  </defs>
+
+  <!-- Base Layer -->
+  <rect width="1200" height="320" fill="url(#bgGradient)" rx="16" />
+
+  <!-- Animated Orbs (Background Glows) -->
+  <circle class="orb-1" cx="200" cy="80" r="180" fill="#38bdf8" opacity="0.12" filter="blur(40px)" />
+  <circle class="orb-2" cx="1000" cy="240" r="220" fill="#818cf8" opacity="0.15" filter="blur(50px)" />
+
+  <!-- Grid Overlay -->
+  <rect width="1200" height="320" fill="url(#grid)" class="bg-grid" rx="16" />
+
+  <!-- Dynamic Network / Flow Lines -->
+  <path class="dash-line" d="M 50 260 Q 300 180 600 240 T 1150 100" fill="none" stroke="url(#accentGrad)" stroke-width="2" opacity="0.4" />
+  <path class="dash-line" d="M 100 60 Q 400 140 700 80 T 1100 260" fill="none" stroke="url(#accentGrad)" stroke-width="1.5" opacity="0.3" />
+
+  <!-- Dynamic Glowing Nodes -->
+  <circle cx="280" cy="200" r="6" fill="#38bdf8" class="pulse-node" />
+  <circle cx="600" cy="240" r="5" fill="#818cf8" class="pulse-node" style="animation-delay: 1s;" />
+  <circle cx="920" cy="130" r="6" fill="#c084fc" class="pulse-node" style="animation-delay: 2s;" />
+
+  <!-- Foreground Content Container with Semi-transparent Backplate for High Contrast -->
+  <rect x="60" y="45" width="1080" height="230" rx="12" fill="rgba(15, 23, 42, 0.65)" stroke="rgba(255, 255, 255, 0.1)" stroke-width="1" />
+
+  <!-- Header Badge -->
+  <rect x="90" y="70" width="220" height="28" rx="14" fill="rgba(56, 189, 248, 0.15)" stroke="#38bdf8" stroke-width="1" />
+  <text x="200" y="89" fill="#38bdf8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="13" font-weight="700" text-anchor="middle" letter-spacing="1">🚀 STARTUP ECOSYSTEM</text>
+
+  <!-- Title -->
+  <text x="90" y="145" fill="url(#textGrad)" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="34" font-weight="800" letter-spacing="-0.5">Awesome Startup Program &amp; Cloud Credits</text>
+
+  <!-- Subtitle -->
+  <text x="90" y="185" fill="#e2e8f0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="17" font-weight="400">
+    Curated Hub for SaaS Startup Offers, Cloud Credits &amp; Open-Source Accelerator Infrastructure
+  </text>
+
+  <!-- Feature Pills -->
+  <g transform="translate(90, 215)">
+    <!-- Pill 1 -->
+    <rect x="0" y="0" width="150" height="30" rx="6" fill="rgba(255, 255, 255, 0.08)" stroke="rgba(255, 255, 255, 0.15)" stroke-width="1" />
+    <text x="75" y="19" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12" font-weight="600" text-anchor="middle">☁️ $500k+ Credits</text>
+
+    <!-- Pill 2 -->
+    <rect x="162" y="0" width="160" height="30" rx="6" fill="rgba(255, 255, 255, 0.08)" stroke="rgba(255, 255, 255, 0.15)" stroke-width="1" />
+    <text x="242" y="19" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12" font-weight="600" text-anchor="middle">⚡ Open-Source SPM</text>
+
+    <!-- Pill 3 -->
+    <rect x="334" y="0" width="170" height="30" rx="6" fill="rgba(255, 255, 255, 0.08)" stroke="rgba(255, 255, 255, 0.15)" stroke-width="1" />
+    <text x="419" y="19" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12" font-weight="600" text-anchor="middle">📊 Market Analytics</text>
+  </g>
+</svg>
